@@ -8,7 +8,7 @@ require([
   "esri/dijit/PopupTemplate", "esri/dijit/Legend",
   "dojo/parser", "dojo/_base/array", "esri/Color",
   "dojo/dom", "dojo/dom-construct", "dojo/number",
-  "dojo/data/ItemFileReadStore", "dijit/form/FilteringSelect",
+  "dojo/data/ItemFileReadStore", "dijit/form/FilteringSelect","esri/arcgis/OAuthInfo", "esri/identity/IdentityManager",
   "dijit/layout/BorderContainer", "dijit/layout/ContentPane",
   "dojo/domReady!"
 
@@ -21,7 +21,7 @@ require([
   PopupTemplate, Legend,
   parser, arrayUtils, Color,
   dom, domConstruct, number,
-  ItemFileReadStore, FilteringSelect
+  ItemFileReadStore, FilteringSelect, OAuthInfo, esriId
 ) {
 
   parser.parse();
@@ -35,6 +35,14 @@ require([
     "TtoO": "Verizon to Other"
   };
 
+  var info = new OAuthInfo({
+  appId: "5gNN43w5fIZ7AWRS",
+  popup: false
+});
+
+esriId.registerOAuthInfos([info]);
+
+  
   app.map = new Map("map", {
     center: [-95.3, 38.397],
     zoom: 5,
