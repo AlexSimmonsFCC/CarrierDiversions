@@ -36,7 +36,7 @@ require([
   };
 
   var info = new OAuthInfo({
-  appId: "5gNN43w5fIZ7AWRS",
+  appId: "LGHZkSFXdzqQhllA",
   popup: false
 });
 
