@@ -8,7 +8,7 @@ require([
   "esri/dijit/PopupTemplate", "esri/dijit/Legend",
   "dojo/parser", "dojo/_base/array", "esri/Color",
   "dojo/dom", "dojo/dom-construct", "dojo/number",
-  "dojo/data/ItemFileReadStore", "dijit/form/FilteringSelect","esri/arcgis/OAuthInfo", "esri/identity/IdentityManager",
+  "dojo/data/ItemFileReadStore", "dijit/form/FilteringSelect","esri/arcgis/OAuthInfo", "esri/IdentityManager",
   "dijit/layout/BorderContainer", "dijit/layout/ContentPane",
   "dojo/domReady!"
 
