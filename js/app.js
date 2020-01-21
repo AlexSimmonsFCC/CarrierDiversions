@@ -35,12 +35,12 @@ require([
     "TtoO": "Verizon to Other"
   };
 
-  var info = new OAuthInfo({
-  appId: "LGHZkSFXdzqQhllA",
-  popup: false
-});
+//   var info = new OAuthInfo({
+//   appId: "LGHZkSFXdzqQhllA",
+//   popup: false
+// });
 
-esriId.registerOAuthInfos([info]);
+// esriId.registerOAuthInfos([info]);
 
   
   app.map = new Map("map", {
