@@ -54,7 +54,7 @@ require([
   app.map.addLayer(ref);
 
   // various info for the feature layer
-  app.OverallURL = "https://tiles.arcgis.com/tiles/YnOQrIGdN9JGtBh4/arcgis/rest/services/Test_VTL2/VectorTileServer";
+  app.OverallURL = "ttps://tiles.arcgis.com/tiles/YnOQrIGdN9JGtBh4/arcgis/rest/services/RuralityTiersVTL/VectorTileServer";
   app.PrePaidURL = "https://services.arcgis.com/YnOQrIGdN9JGtBh4/arcgis/rest/services/CMA_Verizon_Prepaid/FeatureServer/0";
   app.PostPaidURL = "https://services.arcgis.com/YnOQrIGdN9JGtBh4/arcgis/rest/services/CMA_Verizon_Postpaid/FeatureServer/0";
   app.outFields = ["TtoV", "TtoS","TtoA","TtoO","MarketName"];
